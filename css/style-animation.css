@@ -1,0 +1,83 @@
+.inst-container .inst-container-items .inst-item-1,
+.inst-container .inst-container-items .inst-item-2,
+.inst-container .inst-container-items .inst-item-3,
+.inst-container .inst-container-items .inst-item-4,
+.inst-container .inst-container-items .inst-item-5,
+.inst-container .inst-container-items .inst-item-6,
+.inst-container .inst-container-items .inst-item-7,
+.inst-container .inst-container-items .inst-item-8,
+.inst-container .inst-container-items .inst-item-9,
+.inst-container .inst-container-items .inst-item-10{
+    position: relative;
+}
+
+.inst-container .inst-container-items .inst-item-1 .pic_caption,
+.inst-container .inst-container-items .inst-item-2 .pic_caption,
+.inst-container .inst-container-items .inst-item-3 .pic_caption,
+.inst-container .inst-container-items .inst-item-4 .pic_caption,
+.inst-container .inst-container-items .inst-item-5 .pic_caption,
+.inst-container .inst-container-items .inst-item-6 .pic_caption,
+.inst-container .inst-container-items .inst-item-7 .pic_caption,
+.inst-container .inst-container-items .inst-item-8 .pic_caption,
+.inst-container .inst-container-items .inst-item-9 .pic_caption,
+.inst-container .inst-container-items .inst-item-10 .pic_caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 65, 86, 0.93);
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+    padding: 0;
+}
+
+.inst-container .inst-container-items .inst-item-1 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-2 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-3 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-4 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-5 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-6 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-7 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-8 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-9 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-10 .pic_caption h5{
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    letter-spacing: -0.05em;
+    padding-top: 96px;
+}
+
+.inst-container .inst-container-items .inst-item-1:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-2:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-3:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-4:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-5:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-6:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-7:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-8:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-9:hover .bottom_to_top,
+.inst-container .inst-container-items .inst-item-10:hover .bottom_to_top{
+    top: 0;
+    left: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+/* Instagram container */
+.inst-container .inst-container-items .inst-item-1 .pic_caption,
+.inst-container .inst-container-items .inst-item-2 .pic_caption,
+.inst-container .inst-container-items .inst-item-3 .pic_caption{
+    display: none;
+}
+
+.inst-container .inst-container-items .inst-item-1 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-2 .pic_caption h5,
+.inst-container .inst-container-items .inst-item-3 .pic_caption h5{
+    display: none;
+}
+}
